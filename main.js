@@ -20,7 +20,7 @@ useGeographic();
 
 
 // Loading the data
-const parkingData = await fetch("data.json")
+const parkingData = await fetch("/data.json")
     .then(response => response.json())
     .then(json => {
         return json
