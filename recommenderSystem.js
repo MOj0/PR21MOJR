@@ -160,7 +160,7 @@ map.on('singleclick', function (e) {
                      });
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
-                    console.log( errorThrown );
+                    console.log( errorThrown, textStatus, jqXhr );
                 }
             }).then(() => {
                 
