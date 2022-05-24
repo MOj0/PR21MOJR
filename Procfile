@@ -1,1 +1,1 @@
-web: python server.py runserver
+web: npm start
